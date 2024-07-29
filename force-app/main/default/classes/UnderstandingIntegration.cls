@@ -22,5 +22,8 @@ public with sharing class UnderstandingIntegration {
             Student st = (Student) System.JSON.deserialize(jsonString, Student.class);
             st - WILL GIVE YOU ACCESS TO THAT JSON DATA
         */
+        // Apex uses Http, HttpRequest & HttpResponse to perform callouts
+        // Apex also includes a JSON class, that makes it very easy to work with JSON strings.
     }
+    
 }
